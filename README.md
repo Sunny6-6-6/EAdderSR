@@ -1,6 +1,7 @@
 # EAdderSR: Enhanced AdderSR for Single Image Super Resolution
 Jie Song, Huawei Yi, Wenqian Xu, Xiaohui Li, Bo Li, Yuanyuan Liu
 > Reference Toolbox: Xintao Wang, Ke Yu, Kelvin C.K. Chan, Chao Dong and Chen Change Loy. BasicSR. https://github.com/xinntao/BasicSR, 2020.
+> Reference AdderNets CUDA: https://github.com/Claydon-Wang/Addernet-CUDA.
 
 
 1. Put trainset and testset into /datasets.
@@ -17,5 +18,11 @@ Jie Song, Huawei Yi, Wenqian Xu, Xiaohui Li, Bo Li, Yuanyuan Liu
 
     ```
     python basicsr/train_CGKD.py -opt options\train\SRResNet_SRGAN_EAdderSR\train_MSRResNet_EAdderSR_x4.yml 
+   
+    ```
+5. Test:
+
+    ```
+    python basicsr/test.py -opt options\test\SRResNet_SRGAN_EAdderSR\test_MSRResNet_EAdderSR_x4.yml
    
     ```

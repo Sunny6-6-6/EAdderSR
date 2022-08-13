@@ -4,7 +4,7 @@ Jie Song, Huawei Yi, Wenqian Xu, Xiaohui Li, Bo Li, Yuanyuan Liu
 > Reference AdderNets CUDA: https://github.com/Claydon-Wang/Addernet-CUDA.
 
 
-1. Put trainset and testset into /datasets.
+1. Put trainset and testset into \datasets.
 
 2. Put vgg19.pth into basicsr\models\archs\vgg19 checkpoint.
 
